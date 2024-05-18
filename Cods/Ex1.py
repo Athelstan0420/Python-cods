@@ -1,3 +1,6 @@
+#Deixando tudo pronto
+
+
 Print("Olá, Mundo!")
 
 #or
