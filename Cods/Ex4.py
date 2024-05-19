@@ -1,8 +1,8 @@
-var = input("Digite algo: ")
 
-if var.isnumeric == True:
-     print("É numérico!")
-# elif var.isalpha == True:
-#     print("É Alfha")
-# elif var.isupper == True:
-#     print("Está Capitalizado")
+var = input("Digite algo: ")
+print(f"O tipo primitivo desse valor é: {type(var)}")
+print(f"É um número: {var.isalnum()}")
+print(f"É alfabetico:  {var.isalpha()} ")
+print(f"É numérico: {var.isnumeric()}")
+print(f"Está capitalizado: {var.isupper()}")
+
