@@ -1,3 +1,6 @@
 var = input("Digite algo: ")
 
-print(var.is)
+if var.isnumeric == True:
+    print("É numérico!")
+else:
+    print("Não é numérico!")
