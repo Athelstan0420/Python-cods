@@ -1,4 +1,5 @@
 
+# Dissecando uma variável
 var = input("Digite algo: ")
 print(f"O tipo primitivo desse valor é: {type(var)}")
 print(f"É um número: {var.isalnum()}")
