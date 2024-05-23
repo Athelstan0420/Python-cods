@@ -1,16 +1,25 @@
-#Pintando uma Parede:
+# Aumentos e Descontos:
 
 while True:
     try:
-        l = float(input("Largura da parede em m2: "))
-        a = float(input("Altura da parede em m2:"))
-        area = l * a        
-        tinta = area / 4              
+        mod = " "
+        valor = float(input("Digite o valor:     R$"))
+        desc = float(input("Poentagem de desconto:     %"))
+        print("="*30)
+        opc = int(input("Aumento[1] -- Desconto[2]:     "))
+        print("="*30)
+        if opc == 1:
+            conto = valor + (valor * desc / 100)
+            mod = "Aumento"
+        elif opc == 2:
+            conto = valor - (valor * desc / 100)
+            mod = "Desconto"
     except:
-        print("Ops! Eu erro")
+        print("Ops! Algo deu errado! tente novamente")
+        
     else:
-        print("A área dessa parede {} x {} é = {:.2f}m2".
-        format(l,a,area))
-        print("A quantidade de litros necessários será de {:.2f} litros".format(tinta))
+        print("O valor R${:.2f} com o {} de {:.0f}% fica R${}".format(valor, mod, desc, conto))         
     finally:
-        print("Continue Programando..")
+        print("="*30)
+        print("Continue assim...")
+        print("="*30)
