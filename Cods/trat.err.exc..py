@@ -14,8 +14,7 @@ else: #Se não houver erro, faça isso:
 
 finally: # Irá aparecer sempre!
     print("Continue Programando")
-
-
+    
 # No except você pode utilizar o:
 # except Exception as erro:
 #     print(f"O erro foi {erro.__class__}")
