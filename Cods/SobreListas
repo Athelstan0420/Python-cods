@@ -1,0 +1,28 @@
+""" 
+
+Listas, Indexação;
+
+Exercicio de raciocinio lógico:
+    
+"""
+
+lista = ['a','b','c','d', 'e']
+
+print(lista[0:5]) # Indice zero ao último;
+print(lista[0]) # Indice zero;
+print(lista[:3]) # Do primeiro até o indice três -1; 
+print(lista[-1]) # Negativo, começa pelo último indice;
+print(lista[2:5]) # Indice dois até o cinco;
+
+
+a = ['1', '2']
+
+#Alguns metodos;
+
+b = a.append('a') #adicionar itens a lista;
+
+c = a.insert(0, 'h') #Insere um item em determinado indice;
+
+d = a.extend(lista) # Adiciona os itens de uma lista em outra;
+
+print(a)
