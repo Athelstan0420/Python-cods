@@ -6,3 +6,5 @@ Python é uma linguagem muito simples e de fácil entendimento. O Python é muit
 
 
 https://www.w3schools.com/python/default.asp
+
+https://youtu.be/U_A2kwUfmlw?si=q7UGBShW1PbMrB7V
