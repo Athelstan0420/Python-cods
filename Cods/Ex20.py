@@ -3,7 +3,7 @@
 
 from random import randint
 
-s = randint(0,17)
-
-print(s)
-
+for i in range(0,5):
+    s = randint(0,17)
+    print(s)
+    print()
