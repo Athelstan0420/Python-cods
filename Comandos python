@@ -1,0 +1,3 @@
+- listar libs em python: pip list
+
+- mostrar info. de uma lista específica: pip show nomedalib
